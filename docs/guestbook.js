@@ -21,7 +21,7 @@ const guestbook = {
       data: JSON.stringify({
         name,
         email,
-        comment,
+        mobileno,
       }),
       dataType: 'json',
     });
