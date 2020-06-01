@@ -7,7 +7,7 @@ const guestbook = {
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${apiUrl}/entries?mobileno=+`$('#mobileno').val().trim(),
+      url: `${apiUrl}/entries,
       dataType: 'json'
     });
   },
